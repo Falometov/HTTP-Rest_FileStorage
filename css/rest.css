@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100vh;
+    font-family: Neucha;
+    
+}
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+#prev{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 2px 10px;
+    flex: 1 1 50px;
+}
+.currentLocation{    
+    flex: 4 1 50px;
+    margin: 10px;
+    margin-left: 15%;
+}
+.currentLocation__content{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0px 10px;
+    text-align: justify;
+    border-bottom: 2px solid black;
+}
+.contentDir{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
+textarea{
+    display: none;
+    width: 95%;
+    margin: auto;
+}
+.right_section{
+    background-image: url(RightBack.jpg);
+}
+.left_section{
+    background-image: url(LeftBack.jpg);
+    flex: 3 1 200px;
+    overflow:auto;
+}
+.editMenu{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.editButtons{
+    font-family: Neucha;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 175px;
+}
+.descriptionBut{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.nameFolder{
+    text-align: center;
+    width: 90px;
+    height: 55px;
+    overflow: hidden;
+}
+.contentDir ul{
+    list-style: none;
+    margin: auto;
+    padding: 30px;
+}
+.contentDir ul li{
+    display: inline-block; 
+    margin: 10px;
+    
+}
+
+.folder{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center
+}
